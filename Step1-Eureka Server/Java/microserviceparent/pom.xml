@@ -6,7 +6,11 @@
 
     <groupId>tz.com</groupId>
     <artifactId>microservice-parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>servicecenter2</module>
+    </modules>
 
 
 </project>
