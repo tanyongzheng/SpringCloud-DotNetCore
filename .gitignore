@@ -47,3 +47,5 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+Step1-Eureka Server/Java/microserviceparent/.idea/
+Step1-Eureka Server/Java/microserviceparent/servicecenter/.mvn/
