@@ -9,7 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>servicecenter</module>
         <module>servicecenter2</module>
+        <module>userservice</module>
     </modules>
 
 

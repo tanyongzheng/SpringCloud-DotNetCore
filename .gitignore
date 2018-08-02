@@ -53,3 +53,4 @@ Step1-Eureka Server/Java/microserviceparent/servicecenter2/target/
 Step2-Service Register/Java/microserviceparent/.idea/
 Step2-Service Register/Java/microserviceparent/servicecenter2/target/classes/application.yml
 Step2-Service Register/Java/microserviceparent/servicecenter2/target/
+Step2-Service Register/Java/microserviceparent/userservice/target/
