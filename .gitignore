@@ -67,3 +67,5 @@ Step3-Service Discovery and Call/DotNetCore/MicroService/UserService/obj/
 Step3-Service Discovery and Call/Java/microserviceparent/.idea/
 Step3-Service Discovery and Call/Java/microserviceparent/servicecenter/.mvn/
 Step3-Service Discovery and Call/Java/microserviceparent/orderservice/target/
+Step3-Service Discovery and Call/DotNetCore/MicroService/OrderService/bin/
+Step3-Service Discovery and Call/DotNetCore/MicroService/OrderService/obj/
