@@ -58,3 +58,11 @@ Step2-Service Register/DotNetCore/MicroService/.vs/
 Step2-Service Register/DotNetCore/MicroService/UserService/obj/
 Step2-Service Register/DotNetCore/MicroService/UserService/bin/
 Step2-Service Register/DotNetCore/MicroService/UserService/UserService.csproj.user
+Step3-Service Discovery and Call/DotNetCore/MicroService/.vs/
+Step3-Service Discovery and Call/Java/microserviceparent/userservice/target/
+Step3-Service Discovery and Call/DotNetCore/MicroService/UserService/bin/
+Step3-Service Discovery and Call/DotNetCore/MicroService/UserService/UserService.csproj.user
+Step3-Service Discovery and Call/Java/microserviceparent/servicecenter2/target/
+Step3-Service Discovery and Call/DotNetCore/MicroService/UserService/obj/
+Step3-Service Discovery and Call/Java/microserviceparent/.idea/
+Step3-Service Discovery and Call/Java/microserviceparent/servicecenter/.mvn/
