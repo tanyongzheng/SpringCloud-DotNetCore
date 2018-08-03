@@ -1,5 +1,5 @@
 server:
-  port: 7772 #服务端口
+  port: 6661 #服务端口
 
 eureka:
   client:
@@ -10,4 +10,4 @@ eureka:
 
 spring:
   application:
-    name: userservice #服务名
+    name: orderservice #服务名

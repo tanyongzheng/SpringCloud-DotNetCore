@@ -1,6 +1,8 @@
 package com.tz.userservice;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -26,5 +28,13 @@ public class UserController {
         list.add(user1);
         list.add(user2);
         return list;
+    }
+
+    @Value("${server.port}")
+    String port;
+
+    @RequestMapping("/getport")
+    public String getPort() {
+        return "service port:" + port;
     }
 }
