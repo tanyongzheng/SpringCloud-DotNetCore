@@ -25,6 +25,8 @@ namespace OrderService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //添加注入配置
+            services.AddScoped<Controllers.IUserService, Controllers.UserService>();
             //判断是否能获取Eureka配置
             if (Configuration.GetSection("eureka").GetChildren().Any())
             {

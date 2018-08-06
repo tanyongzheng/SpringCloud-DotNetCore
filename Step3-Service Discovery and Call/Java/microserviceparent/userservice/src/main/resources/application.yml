@@ -1,5 +1,5 @@
 server:
-  port: 7772 #服务端口
+  port: 7771 #服务端口
 
 eureka:
   client:
