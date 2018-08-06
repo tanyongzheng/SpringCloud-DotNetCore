@@ -69,3 +69,14 @@ Step3-Service Discovery and Call/Java/microserviceparent/servicecenter/.mvn/
 Step3-Service Discovery and Call/Java/microserviceparent/orderservice/target/
 Step3-Service Discovery and Call/DotNetCore/MicroService/OrderService/bin/
 Step3-Service Discovery and Call/DotNetCore/MicroService/OrderService/obj/
+Step4-Circuit Breaker/DotNetCore/MicroService/.vs/
+Step4-Circuit Breaker/DotNetCore/MicroService/OrderService/bin/
+Step4-Circuit Breaker/DotNetCore/MicroService/OrderService/obj/
+Step4-Circuit Breaker/DotNetCore/MicroService/UserService/bin/
+Step4-Circuit Breaker/DotNetCore/MicroService/UserService/obj/
+Step4-Circuit Breaker/Java/microserviceparent/.idea/
+Step4-Circuit Breaker/DotNetCore/MicroService/UserService/UserService.csproj.user
+Step4-Circuit Breaker/Java/microserviceparent/servicecenter2/target/
+Step4-Circuit Breaker/Java/microserviceparent/userservice/target/
+Step4-Circuit Breaker/Java/microserviceparent/servicecenter/.mvn/
+Step4-Circuit Breaker/Java/microserviceparent/orderservice/target/
