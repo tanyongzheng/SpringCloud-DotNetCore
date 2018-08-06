@@ -9,7 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using OrderService.Controllers;
 using Pivotal.Discovery.Client;
+using Steeltoe.CircuitBreaker.Hystrix;
 
 namespace OrderService
 {
@@ -27,6 +29,9 @@ namespace OrderService
         {
             //添加注入配置
             services.AddScoped<Controllers.IUserService, Controllers.UserService>();
+            // 注册使用HystrixCommand类封装UserService方法做断路器的命令类
+            services.AddHystrixCommand<UsergetAllCommand>("userservice", Configuration);
+            services.AddHystrixCommand<UsergetPortCommand>("userservice", Configuration);
             //判断是否能获取Eureka配置
             if (Configuration.GetSection("eureka").GetChildren().Any())
             {

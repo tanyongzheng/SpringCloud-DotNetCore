@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Steeltoe.CircuitBreaker.Hystrix;
 using Steeltoe.Common.Discovery;
 
 namespace OrderService.Controllers
@@ -17,6 +18,7 @@ namespace OrderService.Controllers
         {
             _handler = new DiscoveryHttpClientHandler(client);
         }
+
         public async Task<List<User>> getAll()
         {
             var client = GetClient();
@@ -30,10 +32,12 @@ namespace OrderService.Controllers
             var client = GetClient();
             return await client.GetStringAsync(serviceUrl + "/getport");
         }
-    private HttpClient GetClient()
+
+        private HttpClient GetClient()
         {
             var client = new HttpClient(_handler, false);
             return client;
         }
+        
     }
 }

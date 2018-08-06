@@ -10,18 +10,27 @@ namespace OrderService.Controllers
     [ApiController]
     public class OrderController : ControllerBase
     {
-        private readonly IUserService userService;
+        private readonly IUserService _userService;
+
+        private readonly UsergetAllCommand _usergetAllCommand;
+
+        private readonly UsergetPortCommand _usergetPortCommand;
         //构造方法来注入实例
-        public OrderController(IUserService userService)
+        public OrderController(IUserService userService
+            ,UsergetAllCommand usergetAllCommand
+            ,UsergetPortCommand usergetPortCommand)
         {
-            this.userService = userService;
+            _userService = userService;
+            _usergetAllCommand = usergetAllCommand;
+            _usergetPortCommand = usergetPortCommand;
         }
 
         [Route("getalluser")]
         [HttpGet]
         public async Task<List<User>> getAll()
         {
-            List<User> list = await userService.getAll();
+            //List<User> list = await _userService.getAll();
+            var list =await _usergetAllCommand.getAll();
             return list;
         }
 
@@ -29,7 +38,8 @@ namespace OrderService.Controllers
         [HttpGet]
         public async Task<string> getUserServicePort()
         {
-            var port = await userService.getPort();
+            //var port = await _userService.getPort();
+            var port = await _usergetPortCommand.getPort();
             return port;
         }
 
