@@ -13,6 +13,7 @@
         <module>servicecenter2</module>
         <module>userservice</module>
         <module>orderservice</module>
+        <module>apigateway</module>
     </modules>
 
 
