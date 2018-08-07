@@ -80,3 +80,13 @@ Step4-Circuit Breaker/Java/microserviceparent/servicecenter2/target/
 Step4-Circuit Breaker/Java/microserviceparent/userservice/target/
 Step4-Circuit Breaker/Java/microserviceparent/servicecenter/.mvn/
 Step4-Circuit Breaker/Java/microserviceparent/orderservice/target/
+Step5-API Gateway/DotNetCore/MicroService/.vs/
+Step5-API Gateway/DotNetCore/MicroService/OrderService/bin/
+Step5-API Gateway/DotNetCore/MicroService/OrderService/obj/
+Step5-API Gateway/DotNetCore/MicroService/UserService/obj/
+Step5-API Gateway/Java/microserviceparent/.idea/
+Step5-API Gateway/DotNetCore/MicroService/UserService/bin/
+Step5-API Gateway/Java/microserviceparent/orderservice/target/
+Step5-API Gateway/Java/microserviceparent/servicecenter2/target/
+Step5-API Gateway/Java/microserviceparent/userservice/target/
+Step5-API Gateway/Java/microserviceparent/servicecenter/.mvn/
