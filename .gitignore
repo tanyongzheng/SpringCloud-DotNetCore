@@ -93,3 +93,10 @@ Step5-API Gateway/Java/microserviceparent/servicecenter/.mvn/
 Step5-API Gateway/Java/microserviceparent/apigateway/target/
 Step5-API Gateway/DotNetCore/MicroService/ConsoleApp1/bin/
 Step5-API Gateway/DotNetCore/MicroService/ConsoleApp1/obj/
+Step6-RPC Thrift/DotNetCore/MicroService/.vs/
+Step6-RPC Thrift/DotNetCore/MicroService/ConsoleApp1/bin/
+Step6-RPC Thrift/DotNetCore/MicroService/ConsoleApp1/obj/
+Step6-RPC Thrift/DotNetCore/MicroService/OrderService/bin/
+Step6-RPC Thrift/DotNetCore/MicroService/OrderService/obj/
+Step6-RPC Thrift/DotNetCore/MicroService/UserService/bin/
+Step6-RPC Thrift/DotNetCore/MicroService/UserService/obj/
