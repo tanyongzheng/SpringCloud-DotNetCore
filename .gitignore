@@ -100,3 +100,11 @@ Step6-RPC Thrift/DotNetCore/MicroService/OrderService/bin/
 Step6-RPC Thrift/DotNetCore/MicroService/OrderService/obj/
 Step6-RPC Thrift/DotNetCore/MicroService/UserService/bin/
 Step6-RPC Thrift/DotNetCore/MicroService/UserService/obj/
+Step6-RPC Thrift/DotNetCore/MicroService/RPC/RPC.ThriftClient/bin/
+Step6-RPC Thrift/DotNetCore/MicroService/RPC/RPC.ThriftClient/obj/
+Step6-RPC Thrift/DotNetCore/MicroService/RPC/RPC.ThriftInterface/bin/
+Step6-RPC Thrift/DotNetCore/MicroService/RPC/RPC.ThriftInterface/obj/
+Step6-RPC Thrift/DotNetCore/MicroService/RPC/RPC.ThriftServer/bin/
+Step6-RPC Thrift/DotNetCore/MicroService/RPC/RPC.ThriftServer/obj/
+Step6-RPC Thrift/DotNetCore/MicroService/RPC/Thrift/bin/
+Step6-RPC Thrift/DotNetCore/MicroService/RPC/Thrift/obj/

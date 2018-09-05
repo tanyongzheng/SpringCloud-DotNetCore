@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RPC.ThriftInterface\RPC.ThriftInterface.csproj" />
+    <ProjectReference Include="..\Thrift\Thrift.csproj" />
+  </ItemGroup>
+
+</Project>
